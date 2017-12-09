@@ -2,6 +2,7 @@
   <library name="selenium-server-standalone-3.3.1">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../Day12/selenium/selenium-server-standalone-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Day11/selenium/selenium-server-standalone-3.3.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

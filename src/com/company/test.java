@@ -74,13 +74,7 @@ public class test {
        hpPage.clickComments();
 
         PrintScreen.takePrintScreen(driver, "CommentPage" );
-//        screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//        try {
-//            FileUtils.copyFile(screenshotFile, new
-//                    File("CommentPage.png"));
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+
     }
 
     @AfterTest
