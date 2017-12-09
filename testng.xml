@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DataProviderExampleSuiteOfTest" parallel="false">
+<test name="LoginTest1">
+    <classes>
+        <class name="com.company.test">
+            <methods>
+                <include name="testLogin" />
+                <include name="goToTest" />
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
