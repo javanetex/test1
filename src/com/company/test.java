@@ -24,7 +24,8 @@ public class test {
     public void startDriver()
     {
         //        Chrome
-        
+        System.out.println("New line in Version Control! ");
+
         String path = "D:\\Projects\\training\\Day11\\selenium\\";
         System.setProperty("webdriver.chrome.driver",path + "chromedriver.exe"); driver = new ChromeDriver();
 
