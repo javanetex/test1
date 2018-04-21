@@ -18,7 +18,6 @@ public class test {
     private Wait<WebDriver> astept ;
     private LogInPage liPage;
     private HomePage hpPage;
-    
 
     @BeforeTest
     public void startDriver()
