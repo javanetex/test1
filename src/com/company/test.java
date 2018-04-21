@@ -14,11 +14,11 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class test {
-    WebDriver driver;
-    Wait<WebDriver> astept ;
-    LogInPage liPage;
-    HomePage hpPage;
-    File screenshotFile;
+    private WebDriver driver;
+    private Wait<WebDriver> astept ;
+    private LogInPage liPage;
+    private HomePage hpPage;
+    
 
     @BeforeTest
     public void startDriver()
