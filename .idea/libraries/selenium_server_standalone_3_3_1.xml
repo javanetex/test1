@@ -3,8 +3,12 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../Day12/selenium/selenium-server-standalone-3.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../../Day11/selenium/selenium-server-standalone-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../training/Day11/selenium/selenium-java-3.3.1.zip!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../training/Day11/selenium/lib" />
+      <root url="jar://$PROJECT_DIR$/../../../../../training/Day11/selenium/selenium-server-standalone-3.3.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../training/Day11/selenium/lib" recursive="false" />
   </library>
 </component>

@@ -26,11 +26,13 @@ public class test {
         //        Chrome
         System.out.println("New line in Version Control! ");
 
-        String path = "D:\\Projects\\training\\Day11\\selenium\\";
-        System.setProperty("webdriver.chrome.driver",path + "chromedriver.exe"); driver = new ChromeDriver();
+//        String path = "D:\\Projects\\training\\Day11\\selenium\\";
+        String path ="C:\\Users\\SLIMBOOK\\Documents\\training\\Day11\\selenium\\";
+
+        System.setProperty("webdriver.chrome.driver",path + "chromedriver.exe");
 
         driver = new ChromeDriver();
-        astept = new FluentWait<WebDriver>(driver)
+        astept = new FluentWait<>(driver)
                 //how much to wait
         .withTimeout(10, TimeUnit.SECONDS)
                 // frequency of check
