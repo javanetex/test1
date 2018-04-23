@@ -23,7 +23,8 @@ public class test {
     public void startDriver()
     {
         //        Chrome
-        System.out.println("New line in Version Control! ");
+//        System.out.println("New line in Version Control! ");
+        System.out.println("Edited line in Version Control! ");
 
 //        String path = "D:\\Projects\\training\\Day11\\selenium\\";
         String path ="C:\\Users\\SLIMBOOK\\Documents\\training\\Day11\\selenium\\";
